@@ -19,3 +19,10 @@
 > So to run our program called "Main" we need to tell java to run it using the
 > "java" command and providing the name of our program which in our case is
 > "Main".
+
+## An easier way to compile
+>
+        shopt -s globstar
+        javac **/*.java
+>
+> Here we are enabling globbing and then compiling every .java file
